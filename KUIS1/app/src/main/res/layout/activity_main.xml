@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#CD5C5C"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:fontFamily="monospace"
+        android:text="KUIS1 TI3D"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/btn_app1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF0E6"
+        android:text="Museum Angkut"/>
+
+    <Button
+        android:id="@+id/btn_app2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF0E6"
+        android:text="Museum Satwa"/>
+    <Button
+        android:id="@+id/btn_app3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF0E6"
+        android:text="Museum Tubuh"/>
+    <Button
+        android:id="@+id/btn_app4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF0E6"
+        android:text="Museum Musik"/>
+    <Button
+        android:id="@+id/btn_app5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF0E6"
+        android:text="Museum Singhasari"/>
+
+    <TextView
+        android:layout_marginTop="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="copyright Ananda Vika | Muh. Uliy | Nor Wahid"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+</LinearLayout>
